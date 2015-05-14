@@ -11,6 +11,8 @@ echo peaceToLove($peace,$place);
 **/
 function peaceToLove($peace,$place)
 {
+	forcePeace($peace); // et voila :)
+	
 	if ($peace)
 	{
 		return "Love in ".$place;
@@ -21,3 +23,11 @@ function peaceToLove($peace,$place)
 	}
 }
 
+
+/**
+* Fonction qui force la paix
+**/
+function forcePeace(&peace)
+{
+	$peace=true;
+}
