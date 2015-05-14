@@ -1,17 +1,19 @@
 <?php
 // Ce script fait la paix dans le monde
 $peace = true;
-echo peaceToLove($peace);
+$place = "the world";
+
+echo peaceToLove($peace,$place);
 
 
 /**
 * Fonction qui transforme la paix en amour :)
 **/
-function peaceToLove($peace)
+function peaceToLove($peace,$place)
 {
 	if ($peace)
 	{
-		return "Love";
+		return "Love in ".$place;
 	}
 	else
 	{
