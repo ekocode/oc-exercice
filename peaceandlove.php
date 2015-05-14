@@ -13,5 +13,9 @@ function peaceToLove($peace)
 	{
 		return "Love";
 	}
+	else
+	{
+		return ":(;
+	}
 }
 
