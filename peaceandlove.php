@@ -17,7 +17,7 @@ function peaceToLove($peace,$place)
 	}
 	else
 	{
-		return ":(;
+		return "Sadness in ".$place;
 	}
 }
 
